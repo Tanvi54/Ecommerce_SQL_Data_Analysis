@@ -42,7 +42,7 @@ The database contains multiple interconnected tables representing a real-world e
 ## 🛠 Tools Used
 - **MySQL Workbench** 🐬
 - **MySQL Server**
-- SQL language
+- **SQL language**
 
 ---
 
@@ -52,38 +52,26 @@ The database contains multiple interconnected tables representing a real-world e
 - Retrieved customers from specific locations, sorted alphabetically.  
 - Counted the number of products in each category.
 
----
-
 ### 2️⃣ JOINS (INNER, LEFT, RIGHT)
 - **INNER JOIN:** Displayed orders along with the customer who placed them.  
 - **LEFT JOIN:** Listed all customers, showing order details if available.  
 - **RIGHT JOIN:** Listed all vendors with the products they sell.
 
----
-
 ### 3️⃣ Subqueries
 - Found products priced **above the average price** in the database.
-
----
 
 ### 4️⃣ Aggregate Functions (SUM, AVG)
 - Calculated **total** and **average** quantity ordered per customer.
 
----
-
 ### 5️⃣ Views for Analysis
 - Created a view `TopSellingProducts` to quickly check which products sell the most.
-
----
 
 ### 6️⃣ Optimizing Queries with Indexes
 - Added indexes on frequently used columns like `CustomerID` in Orders and `ProductID` in VendorProduct to improve query performance.
 
 ---
 
-
 ## 📢 Conclusion
 This project demonstrates how to effectively **query and analyze** an e-commerce dataset using SQL.  
 By applying **joins, subqueries, aggregates, views, and indexes**, we can extract meaningful insights and improve performance. 🚀
 
----
